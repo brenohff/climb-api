@@ -9,7 +9,7 @@ class ApiError {
     private HttpStatus status;
     private String message;
 
-    ApiError(HttpStatus status, String messagea) {
+    ApiError(HttpStatus status, String message) {
         super();
         this.status = status;
         this.message = message;
