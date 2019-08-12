@@ -1,0 +1,9 @@
+package br.com.brenohff.climbapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import br.com.brenohff.climbapi.entity.Updates;
+
+public interface UpdatesRepository extends JpaRepository<Updates, Integer>, JpaSpecificationExecutor<Updates> {
+
+}
